@@ -1,0 +1,100 @@
+<meta name="description" content="Conheça nossa base de conhecimento e navegue pela central de ajuda para saber como utilizar todas as funcionalidades do Movidesk">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://www.movidesk.com/basedeconhecimento/style.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- INÍCIO - CSS PARA ALTERAÇÃO DE CORES -->
+<style>
+.box__main .main__item a i,
+footer .box__footer .footer__contact i,
+body > .body-content > div.row aside .kb-menu-container li a.active,
+body > .body-content article#kb-article .article-content a,
+body > .body-content article#kb-article #rating-box-confirm h5 {
+  color: #1A4253; 
+
+}
+#header__top .enter__contact a.btn-entrar:hover,
+.search-container .search-item a h4:hover,
+body > .body-content > div.row aside .kb-menu-container li a:hover,
+body > .body-content article#kb-article .tags-info a:hover,
+body > .body-content article#kb-article .article-footer #attachments ul li a:hover {
+  color: #ef5350;
+
+}
+
+.header__search,
+footer .box__footer .footer__social ul li a {
+  background-color: #4DC6BD;
+background-image: url(https://www.singulare.com.br/wp-content/uploads/2021/11/Banner_Home_700-Fundos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+footer .box__footer .footer__social ul li a:hover {
+  background-color: #1A4253;
+}
+#contact-form #mceu_14, #contact-form #mceu_14-body, #contact-form #mceu_25 {
+    min-height: 200px;
+}
+
+/*Nova barra de pesquisa*/
+.body-content .kb-article-view .col-sm-12:nth-child(4) {
+	position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #f7f7f7;
+    padding: 20px 0px;
+}
+body:not(.page__home) #search-article-view {
+	max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+	display: block !important;
+}
+#search-article-view form {
+	position: relative;
+}
+#search-article-view form input {
+	padding: 0 30px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #e0d4d4;
+}
+#search-article-view form button {
+	position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+}
+.header__breadcrumb {
+    background: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+@media(min-width: 768px) {
+	body>.body-content>div.row>div.col-sm-12:nth-child(1) {
+		padding-bottom: 180px;
+	}
+	body>.body-content>div.row>div.col-sm-12:nth-child(3) {
+		position: absolute;
+		top: 153px;
+		left: 0;
+		width: 100%;
+	}
+}
+@media(max-width: 767px) {
+	body>.body-content>div.row>div.col-sm-12:nth-child(1) {
+		padding-top: 88px;
+	}
+}
+</style>
+<!-- FIM - CSS PARA ALTERAÇÃO DE CORES -->
